@@ -1,0 +1,29 @@
+{
+    "project_info": {
+      "project_number": "745968421535",
+      "project_id": "push-notification-3f697",
+      "storage_bucket": "push-notification-3f697.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:745968421535:android:10768b7e2a70a334e470aa",
+          "android_client_info": {
+            "package_name": "com.anbu11.MyWebViewApp"
+          }
+        },
+        "oauth_client": [],
+        "api_key": [
+          {
+            "current_key": "AIzaSyCMZoXy2YNhGdUQZbVIAznMb_PW3OGHhIU"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": []
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }

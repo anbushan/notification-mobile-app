@@ -1,0 +1,53 @@
+{
+    "expo": {
+      "name": "MyWebViewApp",
+      "slug": "MyWebViewApp",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/logo.png",
+      "userInterfaceStyle": "light",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff"
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "com.anbu11.MyWebViewApp"
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/brandiland.png",
+          "backgroundColor": "#ffffff"
+        },
+        "package": "com.anbu11.MyWebViewApp",
+        "googleServicesFile": "./google-services.json"
+      },
+      "web": {
+        "favicon": "./assets/logo.png"
+      },
+      "plugins": [
+        "@react-native-firebase/app",
+        "@react-native-firebase/perf",
+        [
+          "expo-build-properties",
+          {
+            "ios": {
+              "useFrameworks": "static"
+            }
+          }
+        ],
+        "@react-native-firebase/messaging",
+        "@react-native-firebase/crashlytics"
+      ],
+      "extra": {
+        "eas": {
+          "projectId": "0ed1ab22-acf7-400b-9e4e-bb825b110281"
+        }
+      }
+    }
+  }
+  
